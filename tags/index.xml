@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Suf8Dev</title>
+    <link>https://ttalis.github.io/SUF8DEV/tags/</link>
+    <description>Recent content in Tags on Suf8Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://ttalis.github.io/SUF8DEV/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>X</title>
+      <link>https://ttalis.github.io/SUF8DEV/tags/x/</link>
+      <pubDate>Sun, 11 Jun 2017 13:03:46 +0800</pubDate>
+      
+      <guid>https://ttalis.github.io/SUF8DEV/tags/x/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

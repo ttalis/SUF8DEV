@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SUF8二次开发基本流程</title>
+<meta name="description" content="A website for suf8 product information">
+<meta name="generator" content="Hugo 0.21" />
+<meta property="og:title" content="SUF8二次开发基本流程" />
+<meta property="og:description" content="
+
+
+实施顾问通过调研沟通，获取了客户的需求，整理成项目需求文档，客户对文档进行了确认。
+项目经理和实施顾问对开发人员发起需求会议，会议上表述需求，以用户故事的形式记录各项需求。对用户故事按优先级排序，形成用户故事地图。
+实施顾问开始申请开发资源，包括：
+Labelcloud平台上申请客户的企业域（平台注册）
+登录Labelcloud后，安装隆腾中转服务
+通过中转密钥工具获得中转密钥
+实施顾问自己的电脑上准备虚拟机
+联系客户准备测试环境
+实施顾问进行suf8开发基线部署，在自己电脑的虚拟机上安装Appserver，在客户k3cloud测试环境中安装ERPserver，以SUF8 ERP中转模式部署。方法参见【部署】章节
+开发人员按用户故事地图优先级对需求进行分解、开发、交付测试。
+开发交付后，实施顾问在自己虚拟机环境进行安装、运行和验证。实施顾问在项目过程中身兼测试角色。
+按实际情况，进行上线部署。上线部署可以选择APPserver中转模式模式或者完全局域网模式进行。正式部署生产环境前，按需在客户的测试环境进行预上线。
+
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ttalis.github.io/SUF8DEV/post/suf8%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B/" />
+
+
+
+<meta property="article:published_time" content="2017-06-11T13:03:46&#43;08:00"/>
+<meta property="article:modified_time" content="2017-06-11T13:03:46&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" type="text/css" media="all" />
+<link rel="stylesheet" href="/SUF8DEV/css/style.css" type="text/css" media="all" />
+<script type="text/javascript" src="/SUF8DEV/js/scripts.js"></script>
+<link rel="shortcut icon" href="/SUF8DEV/favicon.ico">
+
+</head>
+<body class="body body-right-sidebar mobile" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+	<div class="container container-outer">
+		<header class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+			<div class="container container-inner clearfix">
+				<div class="logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">
+					<a class="logo__link" href="/SUF8DEV/" title="Suf8Dev" rel="home">
+						<h1 class="logo__title">Suf8Dev</h1>
+						<h2 class="logo__tagline">Product Release and News</h2>
+					</a>
+				</div>
+			</div>
+			<nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<ul class="menu__list">
+		<li class="menu__item "><a class="menu__link" href="/SUF8DEV/post/">BLOGS</a></li>
+		<li class="menu__item "><a class="menu__link" href="/SUF8DEV/news/">NEWS</a></li>
+	</ul>
+</nav>
+		</header>
+		<div class="wrapper clearfix">
+
+<div class="main-content content" role="main" itemprop="mainContentOfPage">
+	<article class="post">
+		<header class="post__header clearfix">
+			<h1 class="post__title">SUF8二次开发基本流程</h1>
+			<p class="post__meta meta">
+				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+				<time class="post__meta-date" datetime="2017-06-11T13:03:46">June 11, 2017</time>
+				<span class="post__meta-categories meta-categories">
+					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+					<a class="meta-categories__link" href="/SUF8DEV/categories/blog" rel="category">blog</a></span>
+			</p>
+		</header>
+		<div class="post__content clearfix">
+			<p><img src="http://ore258v1n.bkt.clouddn.com/Hb2e04639-07c3-4396-b910-64fb20b9d21b.jpg" alt="" /></p>
+
+<ol>
+<li>实施顾问通过调研沟通，获取了客户的需求，整理成项目需求文档，客户对文档进行了确认。</li>
+<li>项目经理和实施顾问对开发人员发起需求会议，会议上表述需求，以用户故事的形式记录各项需求。对用户故事按优先级排序，形成用户故事地图。</li>
+<li>实施顾问开始申请开发资源，包括：</li>
+<li>Labelcloud平台上申请客户的企业域（平台注册）</li>
+<li>登录Labelcloud后，安装隆腾中转服务</li>
+<li>通过中转密钥工具获得中转密钥</li>
+<li>实施顾问自己的电脑上准备虚拟机</li>
+<li>联系客户准备测试环境</li>
+<li>实施顾问进行suf8开发基线部署，在自己电脑的虚拟机上安装Appserver，在客户k3cloud测试环境中安装ERPserver，以SUF8 ERP中转模式部署。方法参见【部署】章节</li>
+<li>开发人员按用户故事地图优先级对需求进行分解、开发、交付测试。</li>
+<li>开发交付后，实施顾问在自己虚拟机环境进行安装、运行和验证。实施顾问在项目过程中身兼测试角色。</li>
+<li>按实际情况，进行上线部署。上线部署可以选择APPserver中转模式模式或者完全局域网模式进行。正式部署生产环境前，按需在客户的测试环境进行预上线。</li>
+</ol>
+
+<p></p>
+
+<h2 id="关于需求变更">关于需求变更：</h2>
+
+<p>实施顾问在确认需求变更后，支会相关开发人员，进行评估，然后补充到用户故事地图上，视项目情况排期进行变更的开发。</p>
+
+<h2 id="注">注：</h2>
+
+<p>中转功能发布后，公司内部不再建立项目虚拟机，各个项目的虚拟机由对应的实施顾问自己几维护，可以考虑采取一个项目一个快照的形式，不需要安装ERP系统。ERP测试环境由客户准备，企业防火墙仅仅对中转服务器的单个IP地址和端口放行即可。</p>
+		</div>
+		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.73135 3.3795002q0-.5597-.39604-.9557-.39604-.3961-.95577-.3961-.55974 0-.95578.3961-.39604.396-.39604.9557 0 .5598.39604.9558.39604.3961.95578.3961.55973 0 .95577-.3961.39604-.396.39604-.9558zm11.26865 6.0832q0 .5596998-.39076.9504998l-5.18548 5.196q-.41188.3908-.9610504.3908-.55974 0-.9505-.3908l-7.5511496-7.5616998q-.40132-.3907-.68119-1.0666-.27987-.6759-.27987-1.2357v-4.3934q0-.54920004.40132-.95050004.40132-.4013.9505-.4013h4.39339q.55974 0 1.23565.2799.67591.2798 1.07723.6812l7.55115 7.54060004q.39076.4118.39076.961z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link" href="/SUF8DEV/tags/x/" rel="tag">x</a></li>
+	</ul>
+</div>
+
+	</article>
+	
+	
+<nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<div class="post-nav__item post-nav__item--prev col-1-2">
+		<a class="post-nav__link" href="/SUF8DEV/post/%E5%9F%B9%E8%AE%AD%E8%AE%A1%E5%88%92/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">培训计划</p></a>
+	</div>
+	<div class="post-nav__item post-nav__item--next col-1-2">
+		<a class="post-nav__link" href="/SUF8DEV/post/%E6%B7%BB%E5%8A%A0%E6%96%B0%E5%8A%9F%E8%83%BD%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">添加新功能的操作指南</p></a>
+	</div>
+</nav>
+
+	
+</div>
+
+<aside class="sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+	
+<div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="//google.com/search">
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://ttalis.github.io/SUF8DEV/" />
+	</form>
+</div>
+	
+
+	
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/SUF8DEV/categories/blog">Blog</a></li>
+			<li class="widget__item"><a class="widget__link" href="/SUF8DEV/categories/news">News</a></li>
+			<li class="widget__item"><a class="widget__link" href="/SUF8DEV/categories/%e5%ae%9e%e6%96%bd">实施</a></li>
+			<li class="widget__item"><a class="widget__link" href="/SUF8DEV/categories/%e5%bc%80%e5%8f%91">开发</a></li>
+		</ul>
+	</div>
+</div>
+	
+	
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget__link widget__link--taglist" href="/SUF8DEV/tags/x" title="x">x (1)</a>
+	</div>
+</div>
+</aside>
+	</div>
+		<footer class="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+			<div class="container container-inner">
+				<p class="footer__copyright">&copy; 2017 Suf8Dev. <span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad theme</a>.</span></p>
+			</div>
+		</footer>
+	</div>
+
+<script>
+	var navigation = responsiveNav(".menu", {
+		navClass: "menu--collapse",
+	});
+</script>
+</body>
+</html>

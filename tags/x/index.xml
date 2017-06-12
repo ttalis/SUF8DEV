@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>X on Suf8Dev</title>
+    <link>https://ttalis.github.io/SUF8DEV/tags/x/</link>
+    <description>Recent content in X on Suf8Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 11 Jun 2017 13:03:46 +0800</lastBuildDate>
+    
+	<atom:link href="https://ttalis.github.io/SUF8DEV/tags/x/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SUF8二次开发基本流程</title>
+      <link>https://ttalis.github.io/SUF8DEV/post/suf8%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B/</link>
+      <pubDate>Sun, 11 Jun 2017 13:03:46 +0800</pubDate>
+      
+      <guid>https://ttalis.github.io/SUF8DEV/post/suf8%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://ore258v1n.bkt.clouddn.com/Hb2e04639-07c3-4396-b910-64fb20b9d21b.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;实施顾问通过调研沟通，获取了客户的需求，整理成项目需求文档，客户对文档进行了确认。&lt;/li&gt;
+&lt;li&gt;项目经理和实施顾问对开发人员发起需求会议，会议上表述需求，以用户故事的形式记录各项需求。对用户故事按优先级排序，形成用户故事地图。&lt;/li&gt;
+&lt;li&gt;实施顾问开始申请开发资源，包括：&lt;/li&gt;
+&lt;li&gt;Labelcloud平台上申请客户的企业域（平台注册）&lt;/li&gt;
+&lt;li&gt;登录Labelcloud后，安装隆腾中转服务&lt;/li&gt;
+&lt;li&gt;通过中转密钥工具获得中转密钥&lt;/li&gt;
+&lt;li&gt;实施顾问自己的电脑上准备虚拟机&lt;/li&gt;
+&lt;li&gt;联系客户准备测试环境&lt;/li&gt;
+&lt;li&gt;实施顾问进行suf8开发基线部署，在自己电脑的虚拟机上安装Appserver，在客户k3cloud测试环境中安装ERPserver，以SUF8 ERP中转模式部署。方法参见【部署】章节&lt;/li&gt;
+&lt;li&gt;开发人员按用户故事地图优先级对需求进行分解、开发、交付测试。&lt;/li&gt;
+&lt;li&gt;开发交付后，实施顾问在自己虚拟机环境进行安装、运行和验证。实施顾问在项目过程中身兼测试角色。&lt;/li&gt;
+&lt;li&gt;按实际情况，进行上线部署。上线部署可以选择APPserver中转模式模式或者完全局域网模式进行。正式部署生产环境前，按需在客户的测试环境进行预上线。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

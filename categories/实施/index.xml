@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>实施 on Suf8Dev</title>
+    <link>https://ttalis.github.io/SUF8DEV/categories/%E5%AE%9E%E6%96%BD/</link>
+    <description>Recent content in 实施 on Suf8Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 11 Jun 2017 23:59:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://ttalis.github.io/SUF8DEV/categories/%E5%AE%9E%E6%96%BD/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>中转部署结构</title>
+      <link>https://ttalis.github.io/SUF8DEV/post/%E4%B8%AD%E8%BD%AC%E9%83%A8%E7%BD%B2%E7%BB%93%E6%9E%84/</link>
+      <pubDate>Sun, 11 Jun 2017 23:59:11 +0800</pubDate>
+      
+      <guid>https://ttalis.github.io/SUF8DEV/post/%E4%B8%AD%E8%BD%AC%E9%83%A8%E7%BD%B2%E7%BB%93%E6%9E%84/</guid>
+      <description>&lt;p&gt;支持两种中转的部署结构，当然，不使用中转的情况下，可以全部部署到内部网络。&lt;/p&gt;
+
+&lt;h2 id=&#34;方式一&#34;&gt;方式一：&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://ore258v1n.bkt.clouddn.com/Hc1397580-9a53-419f-ac9c-8f6dbdf253b9.jpg&#34; alt=&#34;&#34; /&gt;
+App中转方式，如上图，APPserver作为中转服务的客户端，所有客户端连接到中转服务，然后所有的调用请求通过ICE的反向代理转发到对应的APPserver中进行处理。APPserver和ERPserver都部署在企业内网内。&lt;/p&gt;
+
+&lt;h2 id=&#34;方式二&#34;&gt;方式二：&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://ore258v1n.bkt.clouddn.com/Hc3642a21-7dbf-4e72-8b34-76da3e659f2a.jpg&#34; alt=&#34;&#34; /&gt;
+Erp中转方式，如上图，ERPserver作为中转服务的客户端，APPserver通过中转服务，对ERPserver发出调用请求。客户端和APPserver都部署在企业外网，只有ERPserver部署在企业内网。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

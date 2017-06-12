@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Suf8Dev</title>
+    <link>https://ttalis.github.io/SUF8DEV/categories/news/</link>
+    <description>Recent content in News on Suf8Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 12 Jun 2017 09:06:12 +0800</lastBuildDate>
+    
+	<atom:link href="https://ttalis.github.io/SUF8DEV/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>速飞8新版安装包</title>
+      <link>https://ttalis.github.io/SUF8DEV/post/%E6%96%B0%E7%89%88%E5%AE%89%E8%A3%85%E7%95%8C%E9%9D%A2/</link>
+      <pubDate>Mon, 12 Jun 2017 09:06:12 +0800</pubDate>
+      
+      <guid>https://ttalis.github.io/SUF8DEV/post/%E6%96%B0%E7%89%88%E5%AE%89%E8%A3%85%E7%95%8C%E9%9D%A2/</guid>
+      <description>速飞8安装包重做，现支持四国语言，日韩中英。支持按模块安装和按模块卸载。对中转部署方式全面支持。</description>
+    </item>
+    
+    <item>
+      <title>new1</title>
+      <link>https://ttalis.github.io/SUF8DEV/news/n1/</link>
+      <pubDate>Sun, 11 Jun 2017 13:14:44 +0800</pubDate>
+      
+      <guid>https://ttalis.github.io/SUF8DEV/news/n1/</guid>
+      <description>helloworld</description>
+    </item>
+    
+  </channel>
+</rss>

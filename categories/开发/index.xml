@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>开发 on Suf8Dev</title>
+    <link>https://ttalis.github.io/SUF8DEV/categories/%E5%BC%80%E5%8F%91/</link>
+    <description>Recent content in 开发 on Suf8Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 11 Jun 2017 13:28:46 +0800</lastBuildDate>
+    
+	<atom:link href="https://ttalis.github.io/SUF8DEV/categories/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>添加新功能的操作指南</title>
+      <link>https://ttalis.github.io/SUF8DEV/post/%E6%B7%BB%E5%8A%A0%E6%96%B0%E5%8A%9F%E8%83%BD%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Sun, 11 Jun 2017 13:28:46 +0800</pubDate>
+      
+      <guid>https://ttalis.github.io/SUF8DEV/post/%E6%B7%BB%E5%8A%A0%E6%96%B0%E5%8A%9F%E8%83%BD%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://ore258v1n.bkt.clouddn.com/Hdc8dfeb4-9904-4beb-b3ca-3f715307c0c2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;从develop分支签出代码
+&lt;a href=&#34;http://gitsvr.mipesoft.com/project-team/project_suf8_k3cloud.git&#34;&gt;http://gitsvr.mipesoft.com/project-team/project_suf8_k3cloud.git&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;初始化git工作流
+&lt;img src=&#34;http://ore258v1n.bkt.clouddn.com/Hbbbe1dd6-ea4c-480d-b6d1-e4ca334c8f65.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;开始feature分支进行功能开发
+&lt;img src=&#34;http://ore258v1n.bkt.clouddn.com/H5a2b3de4-69ca-4860-92ec-68866543d958.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
